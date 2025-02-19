@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - AI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #000;
+            color: #fff;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            height: 40vh;
+            overflow: hidden;
+        }
+        .video-container video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .overlay h1 {
+            color: white;
+            font-size: 3rem;
+            font-weight: bold;
+            margin: 0;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .services-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 50px 20px;
+        }
+        .service-card {
+            background: #222;
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+        .service-card h3 {
+            margin: 10px 0;
+        }
+        .status {
+            font-weight: bold;
+            padding: 5px;
+        }
+        .highlight-green {
+            background-color: lightgreen;
+            color: #000;
+        }
+        .highlight-yellow {
+            background-color: yellow;
+            color: #000;
+        }
+        .contact {
+            background: #111;
+            padding: 30px;
+            margin-top: 50px;
+        }
+        .contact h2 {
+            margin-bottom: 10px;
+        }
+        .contact p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="techage video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay">
+            <h1>Our Services</h1>
+        </div>
+    </div>
+    <nav>
+        <a href="main.html">Home</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="services-container">
+        <div class="service-card">
+            <h3>Web Development</h3>
+            <p>We design and develop responsive, high-performing websites tailored to your needs.</p>
+            <span class="status highlight-green">Available</span>
+        </div>
+        <div class="service-card">
+            <h3>Software Development</h3>
+            <p>Custom software solutions designed for efficiency and scalability.</p>
+            <span class="status highlight-green">Available</span>
+        </div>
+        <div class="service-card">
+            <h3>AI Model Training & Development</h3>
+            <p>We build and refine AI models for optimal performance.</p>
+            <span class="status highlight-green">Available</span>
+        </div>
+        <div class="service-card">
+            <h3>Machine Learning & Dataset Algorithms</h3>
+            <p>Building intelligent models for data-driven decision-making.</p>
+            <span class="status highlight-yellow">Coming Soon</span>
+        </div>
+        <div class="service-card">
+            <h3>ERP Systems</h3>
+            <p>Enterprise resource planning solutions to streamline your business operations.</p>
+            <span class="status highlight-yellow">Coming Soon</span>
+        </div>
+        <div class="service-card">
+            <h3>AI Research in Agriculture & Healthcare</h3>
+            <p>Leveraging AI to revolutionize farming and medical advancements.</p>
+            <span class="status highlight-yellow">Coming Soon</span>
+        </div>
+        <div class="service-card">
+            <h3>Data Enrichment & Collection</h3>
+            <p>Enhancing and curating datasets for AI model training.</p>
+            <span class="status highlight-yellow">Coming Soon</span>
+        </div>
+        <div class="service-card">
+            <h3>Customized AI Solutions</h3>
+            <p>AI-driven solutions tailored to your business needs.</p>
+            <span class="status highlight-yellow">Coming Soon</span>
+        </div>
+        <div class="service-card">
+            <h3>AI Consultation & Strategy</h3>
+            <p>Expert guidance on AI adoption and business integration.</p>
+            <span class="status highlight-yellow">Coming Soon</span>
+        </div>
+        <div class="service-card">
+            <h3>Online Presence Enhancement</h3>
+            <p>Improving your digital footprint with AI-powered strategies.</p>
+            <span class="status highlight-yellow">Coming Soon</span>
+        </div>
+        <div class="service-card">
+            <h3>AI Startup Incubation</h3>
+            <p>Supporting AI-driven startups with resources and mentorship.</p>
+            <span class="status highlight-yellow">Coming Soon</span>
+        </div>
+    
+</body>
+</html>
