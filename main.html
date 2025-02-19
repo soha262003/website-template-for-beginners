@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechAge AI</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #1a1a1a; /* Darker background */
+            color: white; /* White text color */
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            height: 60vh; /* One-fourth of the screen height */
+            overflow: hidden;
+        }
+        .video-container video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.562); /* Slight dark overlay for better readability */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .overlay h1 {
+            color: white;
+            font-size: 3rem;
+            font-weight: bold;
+            margin: 0;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: white; /* White text color for links */
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .content {
+            padding: 40px;
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .content p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src=" video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay">
+            <h1>TechAge AI</h1>
+        </div>
+    </div>
+
+    <nav>
+        <a href="about.html">About Me</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="content">
+        <h2>Welcome to AI website </h2>
+        <p>At AI website, we are at the forefront of transforming businesses through cutting-edge artificial intelligence solutions. Our team of AI experts and engineers are committed to developing cutting-edge AI solutions that enable businesses to unlock new opportunities, optimize operations, and make informed, data-driven decisions. Whether it's through intelligent automation, machine learning, or advanced analytics, we strive to deliver tailor-made solutions that meet the unique needs of each client. At TechAge AI, we are not just shaping the future of technology—we are helping businesses stay ahead in an increasingly digital world.</p>
+    </div>
+
+</body>
+</html>
